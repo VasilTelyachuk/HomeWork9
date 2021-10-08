@@ -14,7 +14,7 @@ body {
 header {
   position: absolute;
   width: 100%;
-  top: 20px; 
+  top: 20px;
   left: 50%;
   transform: translate(-50%, 0%);
   z-index: 5;
@@ -69,7 +69,7 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  }
+}
 .title {
   max-width: 320px;
   text-transform: uppercase;
@@ -79,7 +79,8 @@ header {
   margin: 0px;
   margin-bottom: 20px;
 }
-.info, span{
+.info,
+span {
   display: block;
   font-family: "Roboto";
   font-size: 18px;
@@ -184,8 +185,8 @@ main {
   header {
     top: 47px;
   }
-    .nav-menu {
-       margin: 0px;
+  .nav-menu {
+    margin: 0px;
   }
   .logo {
     margin: 0px;
@@ -193,16 +194,17 @@ main {
   .services {
     margin-bottom: 74px;
   }
-    .title {
+  .title {
     max-width: 620px;
     font-size: 52px;
     margin-bottom: 41px;
   }
-  .info, span {
+  .info,
+  span {
     display: flex;
     flex-direction: row;
     font-size: 24px;
-      }
+  }
   .info {
     margin-bottom: 37px;
   }
@@ -219,18 +221,18 @@ main {
   .btn {
     max-width: 196px;
     padding: 14px 27px 14px 27px;
-       }
-      }
+  }
+}
 @media (min-width: 768px) and (max-width: 1199px) {
   .member-item [class*="col-"]:nth-child(2n + 1) {
     margin-right: 52px;
   }
   .member-item [class*="col-"]:nth-child(-n + 2) {
     margin-bottom: 58px;
-}
-.member-item [class*="col-"]:not(:nth-child(-n+2)) {
-  margin-bottom: 39px;
-}
+  }
+  .member-item [class*="col-"]:not(:nth-child(-n + 2)) {
+    margin-bottom: 39px;
+  }
 }
 @media (min-width: 1200px) {
   .conteiner {
@@ -242,10 +244,10 @@ main {
   main {
     margin-bottom: 73px;
   }
-  .menu-partners {
-    margin-bottom: 39px;
+    .member-item [class*="col-"]:nth-child(-n + 4) {
+    margin-bottom: 0px;
   }
-  .member-item [class*="col-"]:nth-child(-n + 4) {
+  .member-item {
     margin-bottom: 39px;
   }
 }
